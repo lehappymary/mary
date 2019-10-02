@@ -1,0 +1,19 @@
+// Example program
+#include <iostream>
+using namespace std;
+
+int displayStar()
+{
+    cout << "****************************\n";
+    return 0;
+}
+
+int main()
+{
+  
+ displayStar();
+ 
+ displayStar();
+ return 0;
+  
+}
