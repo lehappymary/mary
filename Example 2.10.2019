@@ -6,6 +6,7 @@ int displayStar()
 {
     cout << "****************************\n";
     return 0;
+    //cpp.sh cannot use void
 }
 
 int main()
