@@ -1,0 +1,27 @@
+// Example program
+#include <iostream>
+using namespace std;
+
+int displayStar()
+{
+    cout << "****************************\n";
+    return 0;
+}
+
+int main()
+{
+  
+ displayStar();
+ 
+ //some calculation
+ //initialize an int x with a value of 10
+ //initialize an int y with a value of 38
+  int x=10, y=38; 
+  
+//add this two value and display the total
+ cout<< "The total is = " << x+y <<endl;
+
+ displayStar();
+ return 0;
+  
+}
