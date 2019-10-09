@@ -1,0 +1,22 @@
+//This program demonstrates the nested if statement. 
+#include <iostream>
+using namespace std; 
+void main ()
+{
+int year; 
+char course; 
+
+cout<< “Enter ‘M' if you are a Manufacturing Engineering student : “;
+cin>>course; 
+if ((course == ‘m')||(course == ‘M'))
+{
+cout<<”\nWhat year are you in? “;
+cin >> year; 
+if (year == 1) 
+cout << “\n\nHi! You are a Manufacturing Engineering first year student. “
+else
+cout << “\n\nHi! You are a Manufacturing Engineering student. “;
+}
+else
+cout << “\n\nHi!  You are not a Manufacturing Engineering student. “;
+}
