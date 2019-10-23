@@ -3,21 +3,25 @@
 using namespace std;
 
 //prototype (if fx is after main)
-void kmpergallon(double x);
+double kmpergallons(double, double);
 
-const gallons = 0.264179;
+const double gallons = 0.264179;
 
 int main()
 {
-	cout << "Enter number of litres of petrol : "<<endl;
+	cout << "Enter number of litres of petrol : " << endl;
 	double litres;
-	cin << litres;
+	cin >> litres;
 	cout << "Enter number of kilometres : " << endl;
 	double km;
-	cin << km;
+	cin >> km;
+	kmpergallons(km,litres);
+	cout << x;
 }
 
-void kmpergallon(double x)
+double kmpergallons(double km, double litres)
 {
-	x = km
+	double GALLON = litres*gallons;
+	double x = km / GALLON;
+	return x;
 }
