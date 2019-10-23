@@ -1,0 +1,26 @@
+// lab 7 - function q2 page 79
+#include <iostream>
+using namespace std;
+
+//prototype (if fx is after main)
+void swap(int, int);
+
+int main()
+{
+	int x = 10, y = 79;
+	cout << "The original value of x : " << x << endl;
+	cout << "The original value of y : " << y << endl;
+	swap(x, y);
+	
+	return 0;
+}
+
+void swap(int x, int y)
+{
+	int temp = 0;
+	temp = x;
+	x = y;
+	y = temp;
+	cout << "The swap value of x in main() : " << x << endl;
+	cout << "The swap value of y in main() : " << y << endl;
+}
