@@ -1,0 +1,41 @@
+// lab 7 - function
+#include <iostream>
+using namespace std;
+
+//prototype (if fx is after main)
+void menu();
+
+int main()
+{
+		menu(); //function call
+		cout << "Choose next action : 1, 2, 3 or 4.";
+		int option;
+		cin>> option;
+
+		switch (option)
+		{
+			case 1;
+      cout << "1. Cash Withdrawal" << endl;
+      break;
+			case 2;
+      cout << "2. Check Balance" << endl;
+      break;
+			case 3;
+      cout << "3.Transfer to Own Account" << endl;
+      break;
+			case 4;
+      break;
+		}
+
+	return 0;
+}
+
+//define the function
+void menu()
+{
+	cout << "ATM Menu" << endl << endl;
+	cout << "1. Cash Withdrawal" << endl;
+	cout << "2. Check Balance" << endl;
+	cout << "3.Transfer to Own Account" << endl;
+	cout << "4. Exit ATM Menu" << endl;
+}
