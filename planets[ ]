@@ -1,0 +1,47 @@
+//array
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{	
+	//declare an array named planets
+	string planets[] = { "Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto" };
+
+	//display the content of an array - fill up
+	//for (int i = 0; i < 9; i++)
+		//cout << planets[i] << endl;
+	
+	for (string val : planets)
+		cout << val << endl;
+
+	return 0;
+}
+____________________________________________________________________________________________________________________________________
+//array
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{	
+	//declare an array named planets
+	string planets[3];
+	//= { "Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto" };
+
+	//display the content of an array - fill up
+	//for (int i = 0; i < 9; i++)
+		//cout << planets[i] << endl;
+	
+	for (string val : planets)
+	{
+		cin >> val;
+		cout << val << endl;
+	}
+	for (string val : planets)
+		cout << val<<endl;
+
+	return 0;
+}
